@@ -52,7 +52,9 @@
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "nodemon": "^1.11.0",
-    "sinon": "^2.0.0-pre.3"
+    "sinon": "^2.0.0-pre.3",
+    "body-parser": "^1.15.2",
+    "node-fetch": "^1.6.3"
   },
   "scripts": {
     "lint": "eslint src test tools",

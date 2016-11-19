@@ -9,16 +9,16 @@ export default function canonize(url) {
   const username = url.match(re)[5];
   return '@' + username;
 }
-
-const arr = [
-  'https://vk.com/skillbranch',
-  '//vk.com/skillbranch',
-  'skillbranch',
-  'https://vk.com/skillbranch?w=wall-117903599_1076',
-];
-
-
-arr.forEach((url) => {
-  const username = canonize(url);
-  console.log(username);
-});
+//
+// const arr = [
+//   'https://vk.com/skillbranch',
+//   '//vk.com/skillbranch',
+//   'skillbranch',
+//   'https://vk.com/skillbranch?w=wall-117903599_1076',
+// ];
+//
+//
+// arr.forEach((url) => {
+//   const username = canonize(url);
+//   console.log(username);
+// });
