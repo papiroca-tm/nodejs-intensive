@@ -71,6 +71,15 @@ app.get('/task2C', (req, res) => {
 });
 
 
+import getColor from './getColor';
+/*
+ * task2D
+ * */
+app.get('/task2D', (req, res) => {
+  res.send(getColor(req));
+});
+
+
 /*
  * task3A
  * */
